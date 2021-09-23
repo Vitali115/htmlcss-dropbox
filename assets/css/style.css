@@ -24,12 +24,6 @@ body{
   margin: 0 auto;
 }
 
-
-.section{
-
-}
-
-
 /* HEADER */
 
 header{
@@ -41,7 +35,6 @@ nav{
   height: 100px;
   width: 100%;
 }
-
 
 .main-nav{
   padding: 20px;
@@ -68,9 +61,7 @@ ul li a{
   padding: 20px;
 }
 
-
 /* JUMBO */
-
 
 .jumbotron{
   background-image: black;
@@ -82,11 +73,11 @@ ul li a{
 
 /****** MAIN ******/
 
-
-
 /* ABBONAMENTI */
 
 /* FIND A PARTNER */
+
+/* OPERATION BUSINESS */
 
 /* OUR CLIENT */
 
