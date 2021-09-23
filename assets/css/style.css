@@ -18,19 +18,35 @@ body{
   clear: both;
 } 
 
+.container{
+  width: 90%;
+  max-width: 1180px; 
+  margin: 0 auto;
+}
+
+
+.section{
+
+}
+
 
 /* HEADER */
 
 header{
-  background-color: beige;
+  z-index: 999;
 }
 
 nav{
   position: fixed;
   height: 100px;
-  width: 100vw;
+  width: 100%;
 }
 
+
+.main-nav{
+  padding: 20px;
+  background-color: white;
+}
 .main-nav, .main-nav ul, .main-nav ul li{
   display: inline-block;
   overflow: hidden;
@@ -49,12 +65,24 @@ ul li{
 }
 ul li a{
   text-decoration: none;
+  padding: 20px;
 }
 
 
 /* JUMBO */
 
+
+.jumbotron{
+  background-image: black;
+}
+
+.jumbo-top{
+  margin-top: 100px;
+}
+
 /****** MAIN ******/
+
+
 
 /* ABBONAMENTI */
 
