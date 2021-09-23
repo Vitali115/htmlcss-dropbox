@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+} 
+
+
+/* HEADER */
+
+header{
+  background-color: beige;
+}
+
+nav{
+  position: fixed;
+  height: 100px;
+  width: 100vw;
+}
+
+.main-nav, .main-nav ul, .main-nav ul li{
+  display: inline-block;
+  overflow: hidden;
+}
+
+.nav-left{
+  float: left;
+}
+
+.nav-right{
+  float: right;
+}
+
+ul li{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+}
+
+
+/* JUMBO */
+
+/****** MAIN ******/
+
+/* ABBONAMENTI */
+
+/* FIND A PARTNER */
+
+/* OUR CLIENT */
+
+/* FREE TRIAL */
+
+/* FAQ */
+
+/****** /MAIN ******/
+
+/* FOOTER */
