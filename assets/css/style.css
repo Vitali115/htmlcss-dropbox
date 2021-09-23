@@ -32,7 +32,7 @@ header{
 
 nav{
   position: fixed;
-  height: 100px;
+  height: 70px;
   width: 100%;
 }
 
@@ -64,12 +64,38 @@ ul li a{
 /* JUMBO */
 
 .jumbotron{
-  background-image: black;
+  float: inherit;
+  background-color: red;
+}
+.jumbotron .container-jumbo{
+  
 }
 
-.jumbo-top{
-  margin-top: 100px;
+.jumbotron .container-jumbo .jumbo-top {
+ 
+  text-align: left;
+  margin: 48px ​260px ;
+  
 }
+
+.jumbo-top h1{
+  float: inline-start;
+  margin-top: 100px;
+  padding-inline-end: ;
+  font-size: 70px;
+ 
+}
+
+.jumbotron .container-jumbo .jumbo-image{
+  float: inline-end;
+  width: 870px;
+  height: auto;
+}
+
+
+
+
+
 
 /****** MAIN ******/
 
