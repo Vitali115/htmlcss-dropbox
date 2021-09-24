@@ -18,8 +18,7 @@ body {
   clear: both;
 }
 
-.container{
-  
+.container {
 }
 
 /* HEADER */
@@ -34,7 +33,9 @@ header .main-nav {
   z-index: 115;
 }
 
-.main-nav, .main-nav ul, .main-nav ul li {
+.main-nav,
+.main-nav ul,
+.main-nav ul li {
   display: inline-block;
   vertical-align: middle;
   line-height: 70px;
@@ -48,7 +49,8 @@ header .main-nav {
   float: right;
 }
 
-.main-nav, .nav-left img {
+.main-nav,
+.nav-left img {
   margin: 0px 0px 0px 0px;
   vertical-align: middle;
 }
@@ -107,16 +109,15 @@ button:hover {
 .jumbo-left {
   float: left;
   width: 24%;
-  
+
   line-height: 10x;
   margin: 0px 0px 0px 0px;
 }
 
 .container .jumbo .jumbo-left p::after {
-
 }
 
-.jumbo-left p:first-child{
+.jumbo-left p:first-child {
   margin-bottom: 20px;
 }
 
@@ -130,53 +131,95 @@ button:hover {
 }
 
 .jumbo-left p:nth-child(2) {
-  
 }
-
 
 /****** MAIN ******/
 
 /* SUB */
 
+.row {
+  width: 80%;
+  margin: 0 0;
 
-
-.row{
-  width: 100%;
-  /* background-color: red;  per vedere se funzica*/
+  /* background-color: red;   */
 }
 
-.row .tab .left{
-  flex: left ;
+.row .tab .left {
+  float: left;
 }
 
-.row .tab .right{
-  flex: right ;
-}
-
-.sub-text-up{
+.sub-text-up {
   margin-bottom: 20px;
 }
 
-.sub-text-up h2{
+.sub-text-up h2 {
   font-size: 40px;
   margin-bottom: 20px;
 }
 
-.tab{
+.tab {
   display: inline-block;
   width: 18%;
   border: 1px solid black;
   line-height: 56px;
   margin: 0px 30px;
+  margin-bottom: 30px;
 }
 
-.tab .left ul li{
-
+.tab-down {
+  display: block;
+  width: 62.5%;
 }
 
+.tab-down .left-text {
+}
 
+.tab-down .left.btn {
+}
+
+.tab .left ul li {
+}
 
 /* FIND A PARTNER */
+
+.row {
+  vertical-align: center;
+}
+
+.row .img-left .text-left {
+  display: inline-block;
+}
+
+.row .text-left {
+  line-height: 35px;
+
+  width: 69%;
+}
+
+.row .text-left h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.row .text-left:nth-child(2) {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.row .text-left button {
+  font-weight: 600;
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.row .img-left img {
+  margin: 0 30px;
+  width: 600px;
+  height: auto;
+  float: left;
+}
 
 /* OPERATION BUSINESS */
 
