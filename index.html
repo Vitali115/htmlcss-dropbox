@@ -1,199 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-</head>
-<body>
-
-  <!-------------HEADER------------->
-  <header>
-    <nav class="main-nav clearfix">
-      <div class="nav-left">
-        <img src="assets/img/logo-small.png" alt="logo discord">
-        <ul>
-          <li><a href="#">Perchè Dropbox?</a></li>
-          <li><a href="#">Funzioni</a></li>
-          <li><a href="#">Piani e prezzi</a></li>
-        </ul>
-      </div>
-      <div class="nav-right">
-        <ul>
-          <li><a href="#">Supporto</a></li>
-          <li><a href="#">Contatto l'ufficio vendite</a></li>
-        </ul>
-        <button>Accedi</button>
-        <button>Inizia</button>
-      </div>
-    </nav>
-  </header>
-
-  <!-------------JUMBO------------->
-  <br>
-  
-  <section class="jumbotron"></section>
-    <div class="container-jumbo">
-      <div class="jumbo-top">
-        <h1>Tutto ciò che ti serve per il lavoro, in unico posto</h1>
-      </div>
-      <div class="jumbo-left">
-        <p>
-          Finalmente tutti i tuoi strukmenti, contenuti e collabortatori sono acessibili dallo stesso post.
-          Dropbox Business è più di uno spazio di archiviazcione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavor esistente.
-        </p>
-        <button>Inizia la tua prova gratuita</button>
-        <p>Anulla in qualsiasi momento</p>
-      <!-- <a href="#"></a> aggiungere la freccia che và giù -->
-      </div>
-      <div class="jumbo-right">
-        <img class="jumbo-image" src="assets/img/jumbo.png" alt="">
-      </div>
-    </div>
-  </section>
-  <!-------------MAIN------------->
-  <main>
-
-    <!-------------ABBONAMENTI------------->
-
-    <section>
-
-      <div class="sub-text-up">
-        <h2>Trova il piano Dropbox Business che fà per te</h2>
-        <span>Fatturazione mensile</span>
-        <span>Fatturazione annuale</span>
-      </div>
-     
-      <div class="tab">
-        <span>Singolo</span>
-        <h3>Professional</h3>
-        <h4>19.99€</h4>
-        <p>/mese</p>
-        <span>1 utente</span>
-        <span>3 TB di spazione di archiviazione sicuro</span>
-        <span>Funzione di produttiv</span>
-        <button>Prova gratis per 30 giorni</button>
-        <P>oppure <span>aquista ora</span></P>
-        <hr>
-        <h4>Punti salienti del piano</h4>
-        <span>Invia file fino a 100GB con Dropbox</span>
-        <span>Cartelle offline su dispositivi mobili</span>
-        <span>Pulizia remota dell'acount</span>
-        <span>Filigrana documento</span>
-        <span>Assistenza prioritaria via email e chat</span>
-      </div>
-
-      <div class="large-tab">
-        <span>Team</span>
-        <h3>Contatta l'ufficio vendite per i prezzi</h3>
-        <button>Contatta l'ufficio vendite</button>
-        <P>Soluzione personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</P>
-      </div>
-
-    </section>
-
-    <!-------------FIND A PARTNER------------->
-
-    <section>
-
-      <div>
-        <img src="assets/img/partner.png" alt="">
-      </div>
-      
-      <div>
-        <h4>Entra in contatto con un partner Dropbox</h4>
-        <p>Trova un partner Dropbox e HelloSign di fiducia. Ottiene le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supposto continui</p>
-        <button>Trova un partner</button>
-      </div>
-
-    </section>
-
-    <!------------- OPERATION BUSINESS------------->
-
-    <section>
-      
-        <div>
-          <h2>Trova il piano Dropbox Business che fà per te</h2>
-        </div>
-
-      <div class="row">
-
-        <div class="box">
-          <img src="assets/img/business-feature-switching-tools.png" alt="">
-          <div>
-            <h4>Passa di meno da uno strumento all'altro</h4>
-            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e <span>Dropbox Paper</span> direttamente da Dropbox.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <!-------------HEADER------------->
+    <header>
+      <nav class="main-nav">
+        <nav>
+          <div class="nav-left">
+            <img src="assets/img/logo-small.png" alt="logo discord" />
+            <ul>
+              <li><a href="#">Perchè Dropbox?</a></li>
+              <li><a href="#">Funzioni</a></li>
+              <li><a href="#">Piani e prezzi</a></li>
+            </ul>
           </div>
+          <div class="nav-right">
+            <ul>
+              <li><a href="#">Supporto</a></li>
+              <li><a href="#">Contatto l'ufficio vendite</a></li>
+            </ul>
+            <button>Accedi</button>
+            <button>Inizia</button>
+          </div>
+        </nav>
+      </nav>
+    </header>
+
+    <!-------------JUMBO------------->
+
+    <section class="jumbotron clearfix">
+      <div class="container-jumbo">
+        <div class="jumbo-top">
+          <h1>Tutto ciò che ti serve per il lavoro, in unico posto</h1>
         </div>
+        <div class="jumbo-left">
+          <p>
+            Finalmente tutti i tuoi strukmenti, contenuti e collabortatori sono
+            acessibili dallo stesso post. Dropbox Business è più di uno spazio
+            di archiviazcione sicuro: è un modo intelligente e integrato per
+            ottimizzare il flusso di lavor esistente.
+          </p>
+          <br />
+          <button>Inizia la tua prova gratuita</button>
 
-      </div>
-
-
-    </section>
-
-    <!-------------OUR CLIENT------------->
-
-    <section>
-      <div>
-        <h2>Trova il piano Dropbox Business che fà per te</h2>
-        <p><span>Scopri di più sui nostri clienti</span></p>
-      </div>
-
-      <div>
-        <div>left</div>
-        <div>center</div>
-        <div>right</div>
+          <p>Anulla in qualsiasi momento</p>
+          <a href="#"> <i class="fas fa-arrow-down"></i> </a>
+        </div>
+        <div class="jumbo-right">
+          <img class="jumbo-image" src="assets/img/jumbo.png" alt="" />
+        </div>
       </div>
     </section>
-
-    <!-------------FREE TRIAL------------->
-
-    <section>
-      <div>
-        <h2>Porta Dropbox Business nella tua azienda.</h2>
-      </div>
-
-      <div>
-        <button>Iniza la tua prova</button>
-      </div>
-
-    </section>
-
-    <!-------------FAQ------------->
-
-    <section>
-      <div>
-        <h3>Domande frequenti</h3>
-      </div>
-      
-      <div>
-        <h4>Qual è la differenza tra Dropbox Business Strandard e Dropbox Business Advanced?</h4>
-        <span></span>
-      </div>
-
-    </section>
-
-  </main>
-  <!-------------/MAIN------------->
-
-  <!-------------FOOTER------------->
-  <footer>
-
-    <ul>
-      <li><a href="#">Applicazioni desktop</a></li>
-      <li><a href="#">Perchè Dropbox</a></li>
-      <li><a href="#">Piani</a></li>
-      <li><a href="#">Sicurezza</a></li>
-      <li><a href="#">Funzioni</a></li>
-    </ul>
-
-  </footer>
-
-
-</body>
+  </body>
 </html>
