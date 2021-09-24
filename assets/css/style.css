@@ -184,6 +184,7 @@ button:hover {
 
 .row {
   vertical-align: center;
+  margin-bottom: 40px;
 }
 
 .row .img-left .text-left {
@@ -221,7 +222,44 @@ button:hover {
   float: left;
 }
 
+
+
+
 /* OPERATION BUSINESS */
+
+row-1{
+  width: 30%;
+  display: inline-block;
+  
+}
+
+.box {
+  display: inline-block;
+  width: 18%;
+  margin: 0px 100px;
+  margin-bottom: 30px;
+}
+
+.box .img-up img{
+  
+  width: 300px;
+}
+
+.box .text-down{
+  
+  width: 400px;
+  padding: 0 50px;
+  
+}
+
+.text-down p{
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.text-down p span{
+  text-decoration: underline;
+}
 
 /* OUR CLIENT */
 
