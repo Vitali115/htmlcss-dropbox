@@ -18,20 +18,29 @@ body {
   clear: both;
 }
 
-main{
-  width: 80%;
-  margin: 0 auto;
-
-}
-
 .container {
+  max-width: 1200px;
+  width: 100vw;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
+
+.title-row{
+  margin-left: 30px;
+
+}
+
 
 /* HEADER */
 
-header .main-nav {
-  position: fixed;
+
+header{
   width: 100%;
+}
+header .main-nav {
+  
+  width: 98%;
+  margin: 0 auto;
   min-width: 800px;
   height: 70px;
   background-color: white;
@@ -46,18 +55,25 @@ header .main-nav {
   vertical-align: middle;
   line-height: 70px;
 }
+.head-line{
+  border-bottom: 2px solid grey;
+}
+
 
 .nav-left {
   float: left;
+ margin-left: 30px;
 }
 
 .nav-right {
   float: right;
+  margin-rgiht: 30px;
+  
 }
 
 .main-nav,
 .nav-left img {
-  margin: 0px 0px 0px 0px;
+
   vertical-align: middle;
 }
 
@@ -70,14 +86,21 @@ ul li a {
 }
 
 button {
+  font-size: 15px;
   background-color: #0061ff;
   padding: 10px 20px;
   border: 0;
   color: white;
 }
 
+
 button:hover {
   cursor: pointer;
+}
+
+.btn-none{
+  color: black;
+  background-color: white;
 }
 
 /* JUMBO */
@@ -89,36 +112,54 @@ button:hover {
   margin-bottom: 150px;
 }
 
+
+
+.jumbo{
+  width: 70%;
+  margin: 0 16%;
+  
+  
+}
+
 .jumbo-left a {
   color: black;
   font-size: 50px;
 }
 
 .jumbotron .container-jumbo .jumbo-top {
-  padding: 0px 0px 0px 0px;
+  
   text-align: left;
+  
+}
+
+.jumbo-top{
+  float: initial;
+  width: 80%;
+  padding: 45px 0;
+  
 }
 
 .jumbo-top h1 {
-  font-size: 70px;
+  font-size: 80px;
   padding-top: 70px;
   font-weight: bold;
-  margin-bottom: 40px;
-  width: 69%;
+  
+  
 }
 
 .jumbo .jumbo-image {
-  width: 1100px;
+  width: 900px;
   height: auto;
+  
 }
 
 .jumbo-left {
   float: left;
   width: 24%;
-
   line-height: 10x;
   margin: 0px 0px 0px 0px;
 }
+
 
 .container .jumbo .jumbo-left p::after {
 }
@@ -129,7 +170,6 @@ button:hover {
 
 .jumbo-right {
   float: right;
-  margin: 0px 0px 0px 0px;
 }
 
 .jumbo-left button {
@@ -143,48 +183,84 @@ button:hover {
 
 /* SUB */
 
-.row {
-  width: 80%;
-  margin: 0 0;
-
-  /* background-color: red;   */
-}
-
-.row .tab .left {
-  float: left;
-}
-
 .sub-text-up {
   margin-bottom: 20px;
 }
 
 .sub-text-up h2 {
   font-size: 40px;
-  margin-bottom: 20px;
+  
+}
+
+.sub-text-up a {
+  text-decoration: none;
+ margin-right: 20px;
+ line-height: 50px;
+}
+
+a:visited{
+  color: black;
 }
 
 .tab {
   display: inline-block;
-  width: 18%;
+  width: 26%;
   border: 1px solid black;
   line-height: 56px;
   margin: 0px 30px;
   margin-bottom: 30px;
 }
 
+
+
 .tab-down {
   display: block;
   width: 62.5%;
 }
 
-.tab-down .left-text {
+
+.plane-name{
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 10px 37.4%;
+  
 }
 
-.tab-down .left.btn {
+.plane-name::before{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900;
+  content: "\f007";
+  margin-right: 10px;
 }
 
-.tab .left ul li {
+.plane-info{
+  padding-left: 10px;
 }
+
+.plane-info button{
+  padding: 10px 70px;
+  
+}
+
+.plane-info p{
+  
+  font-size: 12px;
+}
+
+.tab li{
+  line-height: 43px;
+  font-size: 13px;
+  
+}
+
+
+.plane-cost{
+  line-height: 30px;
+  margin-bottom: 30px;
+
+}
+
+
 
 /* FIND A PARTNER */
 
@@ -198,13 +274,16 @@ button:hover {
 }
 
 .row .text-left {
+  
   line-height: 35px;
+  padding: 15% 0;
+  
 
-  width: 69%;
+  
 }
 
-.row .text-left h4 {
-  font-size: 25px;
+.row .text-left h2 {
+  font-size: 26px;
   margin-bottom: 20px;
 }
 .row .text-left:nth-child(2) {
@@ -233,29 +312,32 @@ button:hover {
 
 /* OPERATION BUSINESS */
 
-row-1{
-  width: 30%;
-  display: inline-block;
-  
-}
 
-.box {
+
+.box-info{
   display: inline-block;
-  width: 18%;
-  margin: 0px 100px;
+  width: 23%;
+  margin: 0px 55px;
   margin-bottom: 30px;
 }
 
-.box .img-up img{
+.box-info .img-up img{
   
   width: 300px;
 }
 
-.box .text-down{
+.box-info .text-down{
   
-  width: 400px;
-  padding: 0 50px;
   
+  
+  
+  
+}
+
+.text-down h4{
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .text-down p{
@@ -267,27 +349,8 @@ row-1{
   text-decoration: underline;
 }
 
-/* OUR CLIENT */
-
-main .client-container .client-box{ 
- display: inline-block;
-}
 
 
-.client-container{
-  grid-auto-rows: 1fr;
-  display: inline-block;
-
-}
-
-.client-container .client-box {
-  float: left;
-background-color: red;
-position: relative;
-overflow: hidden;
-
-
-}
 
 .client-container .client-box div{
 
@@ -317,8 +380,330 @@ overflow: hidden;
 
 /* FREE TRIAL */
 
-/* FAQ */
+.single::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f57d ";
+  content: "\f007";
+}
+
+.building::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f57d ";
+  content: "\f1ad ";
+
+}
+
+.file-paper::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f07b ";
+}
+
+.pencil::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f303 ";
+}
+
+.plural::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f234 ";
+}
+
+.smile::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f118 ";
+}
+
+
+
+
+
+/**********OUR CLIENT**************/
+
+
+.half-subtitles {
+  width: 50%;
+  float: left;
+}
+
+.half-subtitles p a{
+  color: #0061ff;
+}
+
+.half-subtitles h2{
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.big-square, .textarea-logo {
+  float: left;
+  margin-top: 30px;
+}
+
+.big-square {
+  width: 30vw;
+  height: 30vw;
+}
+
+.square {
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+
+.square:active {
+  border: 8px solid rgba(230, 224, 224, .3);
+}
+
+.square img {
+  width: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  filter: invert(1);
+}
+
+
+.square.top-left {
+  float: left;
+  top: 0;
+  left: 0;
+  background-color: #A2D39B;
+}
+
+.square.top-right {
+  float: right;
+  top: 0;
+  right: 0;
+  background-color: #62092C;
+}
+
+.square.bottom-left {
+  float: left;
+  bottom: 0;
+  left: 0;
+  background-color: #1C93CE;
+}
+
+.square.bottom-right {
+  float: right;
+  bottom: 0;
+  right: 0;
+  background-color: #F91B1D;
+}
+
+.partner-right .square.top-left{
+  background-color: #D40120;
+}
+
+.partner-right .square.top-right {
+  background-color: #B4D0E7;
+}
+
+.partner-right .square.bottom-left {
+  background-color: #0C2481;
+}
+
+.partner-right .square.bottom-right {
+  background-color: #FED830;
+}
+
+
+.textarea-logo {
+  width: 39vw;
+  height: 30vw;
+  text-align: left;
+  background-color: #F5F5F5;
+  overflow: auto;
+  padding: 30px;
+}
+
+.textarea-logo-image img{
+  width: 20%;
+}
+
+.textarea-logo .line {
+  border-bottom: 1px solid gray;
+}
+
+.textarea-logo p {
+  font-family: 14px;
+  margin: 20px 0;
+}
+
+
+
+.box {
+  padding: 30px 0;
+  background-color: #B4D0E7;
+  margin-bottom: 100px;
+}
+
+.business .container{
+  margin-top: 40px;
+}
+
+.business{
+  margin-top: -40px;
+}
+.box .half-subtitles {
+  width: 50%;
+  float: left;
+  color: #580000;
+  padding: 50px 0;
+}
+
+.button-area {
+  width: 50%;
+  float: right;
+  text-align: right;
+  padding: 100px 0;
+}
+
+.button-area .btn.blank-btn {
+  border: none;
+  text-decoration: none;
+  padding: 5px 40px;
+  background-color: whitesmoke;
+}
+
+
+
+/******************* FAQ ******************/
+.faq {
+  border-bottom: 1px solid #D3D3D6;
+  margin-bottom: 80px;
+}
+
+.faq h2{
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+.faq-row {
+  position: relative;
+  border-top: 1px solid #D3D3D6;
+  
+  
+}
+
+.faq p{
+
+}
+
+.question {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 0;
+  display: inline-block;
+  width: 70%;
+  line-height: 60px;
+}
+
+.item {
+  padding: 39px 0;
+  position: absolute;
+  right: 30px;
+  display: inline-block;
+}
+
+.item .fa-chevron-up, .p-hover {
+  display: none;
+}
+
+.item:hover .fa-chevron-down {
+  display: none;
+}
+
+.item:hover .fa-chevron-up {
+  display: block;
+}
+
+.item:hover + .p-hover {
+  display: block;
+}
+
+.p-hover {
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 70%;
+}
 
 /****** /MAIN ******/
 
-/* FOOTER */
+
+
+/******************* FOOTER ******************/
+
+footer{
+  width: 100%;
+  background-color: black;
+  height: 500px;
+}
+
+.foot{
+  float: left;
+  width: 15%;
+}
+
+.foot ul{
+  padding-top: 30px;
+  color: white;
+  float: left;
+  list-style: none;
+}
+
+.foot ul li{
+  line-height: 30px;
+}
+
+.foot ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+footer .foot:first-child, .lang{
+  margin-left: 10%;
+}
+
+.foot ul li:first-child{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 18px 18px;
+}
+
+
+.foot ul li{
+  font-size: 14px;
+  
+  
+}
+
+.foot:first-child ul{
+  border-bottom: 1px solid gray;
+  padding-bottom: 100px;
+}
+
+.lang p{
+  padding-top: 30px;
+  color: gray;
+}
+
+.lang p::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f57d ";
+}
+
+.lang p::after{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: " \f0d8";
+}
